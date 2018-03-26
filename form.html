@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your video</title>
+</head>
+<body>
+    <form method="POST" action="https://formspree.io/sunlaine12@gmail.com">
+        <label>Your name:
+            <input type="text" name="User name" placeholder="Your name" required>
+        <br>
+        </label>
+        <label for="client-email">Your Email:</label>
+            <input type="email" name="User-email" placeholder=" Your Email" id="client-email" required>
+        <br>
+            <lable>Gender:</lable>
+        <br>
+        <lable>
+            <input type="radio" name="User-gender" value="Male"checked>Male
+        </lable>
+        <lable>
+            <input type="radio" name="User-gender" value="Female">Female
+        </lable>
+        <br>
+        <lable>What device you use for recoding:
+           <select name="device-type">
+           <option value="Smartphone">Smartphone</option>
+           <option value="GoPro">GoPro</option>
+           <option value="Digital-camera">Digital-camera</option>
+           </select>
+        </lable>
+        <br>
+        <label>
+           <textarea name="client-comment" placeholder="Short description your video" required></textarea>  
+        </label>
+        <br>
+        <input type="submit" value="SEND"/>
+        <input type="reset"  value="Reset"/>
+        
+    </form>
+</body>
+</html>
