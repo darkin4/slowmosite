@@ -5,41 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Slow time</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/css-main.css">
+    <link rel="stylesheet" href="css/foto-gallery.css">
+    <link rel="stylesheet" href="css/css-header.css">
+   
 </head>
 <body>
     <header>
-        <div id="Name">
-        <h1>Slow time</h1>
+        <div id="name">
+        <h1 align="center">Slow time</h1>
         </div>
-        <h1>
-        <a href="/form.html">Leav your  slowmo video </a>
+        <nav id="navigation">
+            <a href="#global-info">Information</a>
+            <a href="#gall-foto">Foto Gallery</a>
+            <a href="#gall-video">Video Gallery</a>
+            <a href="#shopp">Shop</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+        <h1 align="center">
+        <a href="form.html">Leav your  slowmo video </a>
         </h1>
     </header>
     <main>
-       <section id="info">
-        <h4>Look at ussual thing  in unusual aspect</h4>
-          <p><strong>Slow motion</strong> (commonly abbreviated as slo-mo or slow-mo) <br>
-                     is an effect in <i>film-making whereby</i> time appears to be slowed down.<br> 
+       <div id="global-info">
+        <h4 align="center">Look at ussual thing  in unusual aspect</h4>
+          <p id ="text" ><strong>Slow motion</strong> (commonly abbreviated as slo-mo or slow-mo) 
+                     is an effect in <i>film-making whereby</i> time appears to be slowed down. 
                      It was invented by the Austrian priest August Musger in the early 20th century</p>
-            <p>Typically this style is achieved when each film frame<br>
-               is captured at a rate much faster than it will be played back.<br>
-               When replayed at normal speed, time appears to be moving more slowly.<br> 
-               A term for creating slow motion film is <b>overcranking</b> which <br>
-               refers to hand cranking an early camera at a faster rate<br>
-               than normal (i.e. faster than 24 frames per second).</p>
-       </section>
-          <figure>
-              <figcaption class="examples">For example</figcaption>
+            <p id ="text">Typically this style is achieved when each film frame
+               is captured at a rate much faster than it will be played back.
+               When replayed at normal speed, time appears to be moving more slowly. 
+               A term for creating slow motion film is <b>overcranking</b> which 
+               refers to hand cranking an early camera at a faster rate
+               than normal (i.e. faster than 24 frames per second). Slow
+               motion can also be achieved by playing normally recorded footage
+               at a slower speed. This technique is more often applied to video
+               subjected to instant replay than to film. A third technique that 
+               is becoming common using current computer software post-processing
+               (with programs like Twixtor) is to fabricate digitally interpolated
+               frames to smoothly transition between the frames that were actually 
+               shot. Motion can be slowed further by combining techniques, 
+               interpolating between overcranked frames. 
+               The traditional method for achieving super-slow motion is through 
+               high-speed photography, a more sophisticated technique that uses 
+               specialized equipment to record fast phenomena, usually for scientific
+               applications.</p>
+       </div>
+       <aside>
+          <h1 id="gall-foto"> Foto gallery</h1>
+          <figure class="gallery-foto">
               <img src="files/slowmo-lightning.jpg" height="235" width="350" alt="slow motion_ananas">
               <img src="files/slowmo-ballon.jpg" height="235" width="350" alt="slow motion_ballon">
               <img src="files/slowmo-water.jpg" height="235" width="350" alt="slow motion_water">
+              <img src="files/slowmo-ananas.jpg" height="235" width="350" alt="slowmo_ananas">
+              <img src="files/slowmo-egg.jpg" height="235" width="350" alt="slowmo-egg">
+              <img src="files/slowmo-explov.jpg" height="235" width="350" alt="sslowmo-explov">
+              <img src="files/slowmo-hand.jpg" height="235" width="350" alt="slowmo-hand">
+              <img src="files/slowmo-strawberry.jpg" height="235" width="350" alt="slowmo-strawberry">
+              <img src="files/slowmo-baseball.jpg" height="235" width="350" alt="slowmo-baseball">
           </figure>
-            <figure>
-                <figcaption class="examples">And some video</figcaption>
+            <figure class="gallery-video" >
+                <figcaption id="gall-video">Video Gallery</figcaption>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/HzTBbbpXelw" 
                 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-             </figure>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vKnX_2FTuQM" 
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </figure>
+       </aside>
+       <div id ="shopp" >
+          <section>
+              <h1>Shop</h1>
+          </section>
+       </div>
     </main>
+    <footer>
+      <h1 id="contacts">Our contacts</h1>
+       <ul id="end">
+           <p>www.facebook.com/slowtime</p>
+           <p>ConntactSTime@gmail.com</p>
+           <p>+3 8 099-211-455-58</p>
+       </ul>
+    </footer>
 </body>
 </html>
