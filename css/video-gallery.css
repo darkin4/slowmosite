@@ -1,0 +1,9 @@
+/*.gallery-video {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(2, 2fr);*/
+/*}*/
+
+#vidg {
+    text-align: center;
+    font-size: 3rem;
+}

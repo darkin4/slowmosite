@@ -1,0 +1,15 @@
+.card {
+    width: 18rem;
+}
+#shoptil.row {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 10rem;
+    margin: 0;
+}  
+/*// dosent work*/
+
+/*#shopp  {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(4, 1fr);*/
+/*}*/

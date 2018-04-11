@@ -1,0 +1,25 @@
+:root {
+    font-size:15px;
+}
+
+#name {
+    margin-top: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+
+.hood {
+    font-family: 'Roboto Slab', serif;
+    color:rgb(91, 48, 39);
+    font-size: 10rem;
+} 
+
+

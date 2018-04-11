@@ -6,17 +6,10 @@
     font-size:15px;
 }
 
-#name {
-    font-family: 'Roboto Slab', serif;
-    font-size: 5rem; 
-    color:rgb(211, 92, 12);
-}
-
-
-
 body {
-	background:
-     rgb(193, 201, 106) 
+    max-width: 980px;
+    background:rgb(193, 201, 106);
+    margin: auto;
 }
 
 #global-info {
@@ -25,22 +18,15 @@ body {
      color:rgb(4, 11, 109);
 }
 
-/*#info {*/
-/*     font-family: 'Montserrat', sans-serif;*/
-/*     color:rgb(59, 61, 51);*/
-/*     font-size:2rem;*/
-/*}*/
+#text {
+    font-size: 1em;
+    text-align: center;
+    margin: 20px;
+}
 
-#1gall-foto {
-     font-family: 'Roboto Slab', serif;
-     color:rgb(11, 183, 169);
-     font-size:2rem;
- }
-#1gall-foto:hover {
-    color:rgb(108, 221, 22);
+#ginfo{
+    text-align: center;
+    font-size: 6rem;
 }
-footer {
-   font-family: 'Roboto Slab', serif;
-   font-size:2rem;
-   text-align: center;
-}
+
+
