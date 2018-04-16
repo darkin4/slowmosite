@@ -8,7 +8,7 @@
 
 body {
     max-width: 980px;
-    background:rgb(193, 201, 106);
+    background-color: rgb(161, 164, 168);
     margin: auto;
 }
 
@@ -16,17 +16,53 @@ body {
      font-family: 'Oswald', sans-serif;
      font-size:2rem;
      color:rgb(4, 11, 109);
+     margin-bottom: 0;
 }
 
-#text {
+#global-info,#foto-text,#vidg,#shoptil,#contacts {
+     background-color: rgb(131, 135, 142);
+}
+
+.text {
     font-size: 1em;
     text-align: center;
-    margin: 20px;
 }
 
 #ginfo{
     text-align: center;
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
+@media (max-width: 650px) {
+    .hood,#name {
+       display: inline;
+       font-size: 4rem;
+    }
+}
 
+@media (min-width: 650px) {
+    .hood,#name {
+       display: inline;
+       font-size: 10rem;
+    }
+}
+
+@media (max-width: 440px) {
+    #contacts {
+       font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    body,.navbar-brand {
+       display: inline;
+       font-size: 1rem;
+    }
+}
+
+ body,#foto-text,#global-info,#vidg,#shopp,#contacts,.gallery-video {
+     margin-bottom: 0;
+ }
+ body,#global-info,.text {
+     margin-bottom: 0; 
+ }

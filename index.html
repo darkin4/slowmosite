@@ -5,19 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Slow time</title>
-    <!--<link rel="stylesheet" href="css/index.css">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/foto-gallery.css">
+    <link rel="stylesheet" href="css/foto-video.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/video-gallery.css">
-    <link rel="stylesheet" href="css/shop.css">
-   
 </head>
 <body>
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <a class="navbar-brand" href="#">Slow time</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,19 +21,19 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#global-info">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link smooth" href="#global-info">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#foto-text">Foto gallery</a>
+                            <a class="nav-link smooth" href="#foto-text">Foto gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#vidg">Video Gallery</a>
+                            <a class="nav-link smooth" href="#vidg">Video Gallery</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link smooth" href="#shoptil">Shop</a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link" href="#contacts">Contacts</a>
+                            <a class="nav-link smooth" href="#contacts">Contacts</a>
                         </li>
                         <a class="navbar-brand" href="#">
                              <img src="files/facebook.png" width="30" height="30" alt="">
@@ -55,22 +51,26 @@
                     </form>
                 </div>
         </nav>
-        
+        <div id="imgh">
          <section class="hood">
           <div id="name">
-            <h1>Slow</h1>
-            <h1>Time</h1>
+            <p>Slow</p>
+            <p>Time</p>
           </div>
-         <h1 id="form"><a href="form.html">Leave your  slowmo video </a></h1>
          </section>
+        </div>
     </header>
     <main>
        <div id="global-info">
         <h1 id="ginfo">Look at ussual thing  in unusual aspect</h1>
-          <p id ="text" ><strong>Slow motion</strong> (commonly abbreviated as slo-mo or slow-mo) 
+         <!--<p id="form"><a href="form.html">Leave your  slowmo video </a></p>-->
+         <section id="bform" >
+         <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".modal-form" id="bform">Leave your  slowmo video</a>
+         </section>
+          <p class ="text" ><strong>Slow motion</strong> (commonly abbreviated as slo-mo or slow-mo) 
                      is an effect in <i>film-making whereby</i> time appears to be slowed down. 
                      It was invented by the Austrian priest August Musger in the early 20th century</p>
-            <p id ="text">Typically this style is achieved when each film frame
+            <p class ="text">Typically this style is achieved when each film frame
                is captured at a rate much faster than it will be played back.
                When replayed at normal speed, time appears to be moving more slowly. 
                A term for creating slow motion film is <b>overcranking</b> which 
@@ -155,7 +155,8 @@
             </figure>
        </aside>
        
-            <h1 id = "shoptil">Shop</h1>
+          
+            <h2 id = "shoptil">Shop</h2>
           <section id="shopp" class="row">
               <div class="card col-12 col-sm-6 col-md-4 col-lg-3">
                  <img class="card-img-top" src="files/sony-xz-premium.jpg" alt="sony-xz-premium">
@@ -164,9 +165,10 @@
                    <p class="card-text">Экран (5.5", IPS, 2160х3840)/ Qualcomm Snapdragon 835 (1.9 - 2.45 ГГц)/ основная камера: 19 Мп, 
                                         фронтальная камера: 13 Мп/ RAM 4 ГБ/ 64 ГБ встроенной памяти + microSDXC (до 256 ГБ)/ 3G/ LTE/ GPS/ 
                                         поддержка 2х SIM-карт (Nano-SIM)/ Android 7.1 (Nougat)/ 3230 мА*ч.</p>
-                   <a href="#" class="btn btn-primary w-50" data-toggle="modal" data-target=".modal-buy"">More Info</a>
+                   <a href="#" class="btn btn-primary w-50" data-toggle="modal" data-target=".modal-buy">More Info</a>
                  </div>
               </div>
+             
               
               <div class="card col-12 col-sm-6 col-md-4 col-lg-3">
                  <img class="card-img-top" src="files/iphone8.jpg" alt="iphone8">
@@ -201,41 +203,90 @@
                  </div>
               </div>
           </section>
-       
     </main>
-    <footer>
-      <h1 id="contacts">Our contacts</h1>
-       <ul id="end">
-           <p>www.facebook.com/slowtime</p>
-           <p>ConntactSTime@gmail.com</p>
-           <p>+3 8 099-211-455-58</p>
-       </ul>
+    
+    <footer id="contacts">
+      <h1>Our contacts</h1>
+        <p>www.facebook.com/slowtime<br>
+           ConntactSTime@gmail.com<br>
+           +3 8 099-211-455-58</p>
     </footer>
     
-    
-
-
      <div class="modal fade modal-buy" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
        <div class="modal-dialog modal-lg">
          <div class="modal-content">
              <div class="card">
-              <img class="card-img-top" src="files/sony-xz-premium.jpg" alt="Sony Xperia XZ Premium">
-              <div class="card-body">
-                <h5 class="card-title">Sony Xperia XZ Premium</h5>
-                <p class="card-text">Very important information about this phone, not here.</p>
-                <a href="#" class="btn btn-primary w-100" data-toggle="modal" data-target=".modal-buy">Buy</a>
+               <img class="card-img-top" src="files/sony-xz-premium.jpg" alt="Sony Xperia XZ Premium">
+               <div class="card-body">
+                 <h5 class="card-title">Sony Xperia XZ Premium</h5>
+                 <p class="card-text">Very important information about this phone, not here.</p>
+                 <a href="#" class="btn btn-primary w-100" data-toggle="modal" data-target=".modal-buy">Buy</a>
               </div>
-            </div>
+             </div>
          </div>
        </div>
      </div>
-    
-    
-    
-    
+     
+     <div class="modal fade modal-form" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+       <div class="modal-dialog modal-lg">
+         <div class="modal-content">
+            <div class="form-group">
+               <label for="exampleInputName">Your name</label>
+               <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+               <label for="exampleInputEmail1">Email address</label>
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+               <label for="exampleInputPassword1">Password</label>
+               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <label for="exampleRadios1">Your gender:</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Male
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <label class="form-check-label" for="exampleRadios2">
+                Female
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+              <label class="form-check-label" for="exampleRadios3">
+                Other
+              </label>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">What device you use for recoding:</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Smartphone</option>
+                  <option>GoPro</option>
+                  <option>Digital-camera</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Short description of your video</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlFile1">Choose your video</label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+         </div>
+       </div>
+     </div>
+     
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+    <script src="/js/scroll.js"></script>
+    <script src="/js/nav-col.js"></script>
 </body>
 </html>

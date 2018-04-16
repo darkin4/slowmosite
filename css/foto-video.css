@@ -1,0 +1,38 @@
+.carousel-item img {
+    height: 390px;
+}
+#foto-text {
+    text-align: center;
+    font-size: 3rem ;
+    font-family: 'Roboto Slab', serif;
+    color:rgb(91, 48, 39);
+}
+
+#vidg {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.card {
+    width: 18rem;
+}
+
+#shoptil {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+}
+
+.col-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#shopp {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.carousel-inner {
+    z-index: -1;
+}

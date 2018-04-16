@@ -3,23 +3,49 @@
 }
 
 #name {
-    margin-top: 100px;
+    margin-top: 50px;
+    /*margin-bottom: 50px;*/
     display: flex;
     flex-direction:row;
     justify-content:space-between;
+    font-family: 'Roboto Slab', sans-serif;
+    color:rgb(198, 239, 203);
+    
 }
 
-#form {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    font-size: 1.5rem;
+.navbar {
+    position: fixed;
+    max-width: 980px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .hood {
-    font-family: 'Roboto Slab', serif;
-    color:rgb(91, 48, 39);
-    font-size: 10rem;
-} 
+    background-position: center;
+    background-size: 980px;
+    max-width: 980px;
+    max-height: 200px;
+}
+
+#imgh {
+    background-image: url("../files/slow-motion-cola.jpg");
+    background-position: center;
+}
+
+#bform {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.modal-content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 
